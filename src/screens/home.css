@@ -1,0 +1,42 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: black;
+    height: 100vh;
+
+}
+.track-crypto, .track-real{
+    font-size: 120px;
+    margin: 0;
+}
+.track-crypto{
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2.5px;
+
+}
+.track-crypto:hover{
+     color: rgb(128, 18, 18);
+      -webkit-text-stroke-color: white;
+      transition: all ease-in-out0.3s;
+}
+.track-real{
+    color: blue;
+}
+.track-real:hover{
+    color: rgb(165, 19, 19);
+}
+.btn-flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 50px;
+}
+p{
+    margin-left: 5px;
+    margin-top: 60px;
+    color: yellow;
+}
